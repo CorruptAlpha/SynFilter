@@ -328,8 +328,13 @@ ItemDisplay[ETH UNI !ID 7cr]: ETH %NAME% %RED%¤
 //ItemDisplay[ETH UNI !ID 7pa]: ETH %NAME% %RED%¤
 //Titan's Revenge
 ItemDisplay[!ETH UNI !ID ama]: %NAME% %RED%¤
-ItemDisplay[ETH UNI !ID ama]: ETH %NAME% %RED%¤
-
+ItemDisplay[ETH UNI !ID ama]: ETH %NAME% %RED%
+//Arm of King Leoric
+ItemDisplay[!ETH UNI !ID 9bw]: %NAME% %RED%¤
+ItemDisplay[ETH UNI !ID 9bw]: ETH %NAME% %RED%
+//Spellsteel
+ItemDisplay[!ETH UNI !ID 9ba]: %NAME% %RED%¤
+ItemDisplay[ETH UNI !ID 9ba]: ETH %NAME% %RED%
 
 //Shields
 //Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
