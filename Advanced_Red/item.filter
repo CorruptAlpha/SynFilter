@@ -1,10 +1,4 @@
-﻿
-//SynFilter: An Item Filter for the Path of Diablo Mod
-//Filter: Advanced
-//Version: 1.3.8
-//Created by: Synial
-//For questions, comments, feedback, or suggestions:
-//Contact on discord: Synial#0688
+﻿//Diablo II Loot Filter, based on SynFilter
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Basics
@@ -36,22 +30,6 @@ ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
 ItemDisplay[bet]: %GOLD%Terror [Diablo]
 ItemDisplay[fed]: %GOLD%Destruction [Baal]
 ItemDisplay[toa]: %GOLD%Token of Absolution
-//PoD Items
-ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[cx6]: %PURPLE%%NAME%
-ItemDisplay[cx7]: %PURPLE%%NAME%
-ItemDisplay[cx8]: %PURPLE%%NAME%
-ItemDisplay[cx9]: %PURPLE%%NAME%
-ItemDisplay[maz]: %PURPLE%%NAME%
-ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %PURPLE%%NAME%
-ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma4]: %PURPLE%%NAME%
-ItemDisplay[ma5]: %PURPLE%%NAME%
-ItemDisplay[ma6]: %PURPLE%%NAME%
-ItemDisplay[ma7]: %PURPLE%%NAME%
-ItemDisplay[ma8]: %PURPLE%%NAME%
-ItemDisplay[ma9]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
@@ -88,15 +66,6 @@ ItemDisplay[gps]:
 ItemDisplay[gpl]:
 ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
-//Hide MAGIC Quivers & Bolts above level 60
-ItemDisplay[aq2 MAG ILVL>60]:
-ItemDisplay[aq2 RARE ILVL>60]: %NAME%
-ItemDisplay[aq2 UNI ILVL>60]: %NAME%
-ItemDisplay[aq2 SET ILVL>60]: %NAME%
-ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 RARE ILVL>60]: %NAME%
-ItemDisplay[cq2 UNI ILVL>60]: %NAME%
-ItemDisplay[cq2 SET ILVL>60]: %NAME%
 //
 ItemDisplay[INF ILVL>14 !RW !leg]:
 
