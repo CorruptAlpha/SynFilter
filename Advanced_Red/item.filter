@@ -66,8 +66,8 @@ ItemDisplay[gps]:
 ItemDisplay[gpl]:
 ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
-//
-ItemDisplay[INF ILVL>14 !RW !leg]:
+//Hide inferior items
+ItemDisplay[INF !RW !leg]:
 
 //RUNES
 //1-16
@@ -142,29 +142,29 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
 //chipped (Tier 1)
-ItemDisplay[gcv DIFFICULTY>0]:
-ItemDisplay[gcw DIFFICULTY>0]:
-ItemDisplay[gcg DIFFICULTY>0]:
-ItemDisplay[gcr DIFFICULTY>0]:
-ItemDisplay[gcb DIFFICULTY>0]:
-ItemDisplay[gcy DIFFICULTY>0]:
-ItemDisplay[skc DIFFICULTY>0]:
+ItemDisplay[gcv]:
+ItemDisplay[gcw]:
+ItemDisplay[gcg]:
+ItemDisplay[gcr]:
+ItemDisplay[gcb]:
+ItemDisplay[gcy]:
+ItemDisplay[skc]:
 //flawed (Tier2)
-ItemDisplay[gfv DIFFICULTY>0]:
-ItemDisplay[gfw DIFFICULTY>0]:
-ItemDisplay[gfg DIFFICULTY>0]:
-ItemDisplay[gfr DIFFICULTY>0]:
-ItemDisplay[gfb DIFFICULTY>0]:
-ItemDisplay[gfy DIFFICULTY>0]:
-ItemDisplay[skf DIFFICULTY>0]:
+ItemDisplay[gfv]:
+ItemDisplay[gfw]:
+ItemDisplay[gfg]:
+ItemDisplay[gfr]:
+ItemDisplay[gfb]:
+ItemDisplay[gfy]:
+ItemDisplay[skf]:
 //normal (Tier3)
-ItemDisplay[gsv DIFFICULTY>0]:
-ItemDisplay[gsw DIFFICULTY>0]:
-ItemDisplay[gsg DIFFICULTY>0]:
-ItemDisplay[gsr DIFFICULTY>0]:
-ItemDisplay[gsb DIFFICULTY>0]:
-ItemDisplay[gsy DIFFICULTY>0]:
-ItemDisplay[sku DIFFICULTY>0]:
+ItemDisplay[gsv]:
+ItemDisplay[gsw]:
+ItemDisplay[gsg]:
+ItemDisplay[gsr]:
+ItemDisplay[gsb]:
+ItemDisplay[gsy]:
+ItemDisplay[sku]:
 //chipped (Tier1): (lowercase display)
 ItemDisplay[gcv]: chipped amethyst
 ItemDisplay[gcw]: chipped diamond
@@ -1080,7 +1080,7 @@ ItemDisplay[CL1 NMAG (SK250>2 AND SK226>2 AND SK235>0) !SOCK=1]: %DGREEN%%NAME% 
 ItemDisplay[CL1 NMAG (SK245>2 AND SK240>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK245>2 AND SK240>2 AND SK235>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
-//non-magic druid pelts with 2 wind skills
+//Non-magic druid pelts with 2 wind skills
 ItemDisplay[CL1 NMAG (SK250>2 AND SK245>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK250>2 AND SK240>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK250>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1091,18 +1091,18 @@ ItemDisplay[CL1 NMAG (SK245>2 AND SK235>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SO
 ItemDisplay[CL1 NMAG (SK240>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK240>2 AND SK235>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
-//non-magic druid pelts with +3 hurricane or +3 tornado or +3 twister
+//Non-magic druid pelts with +3 hurricane or +3 tornado or +3 twister
 ItemDisplay[CL1 NMAG SK250>2 !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[CL1 NMAG SK245>2 !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[CL1 NMAG SK240>2 !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
-//non-magic druid pelts with 3 shockwave skills
+//Non-magic druid pelts with 3 shockwave skills
 ItemDisplay[CL1 NMAG (SK243>2 AND SK228>2 AND SK224>2) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK243>2 AND SK228>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK243>2 AND SK224>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK228>2 AND SK224>2 AND SK226>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
-//non-magic druid pelts with 2 shockwave skills
+//Non-magic druid pelts with 2 shockwave skills
 ItemDisplay[CL1 NMAG (SK243>2 AND SK228>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK243>2 AND SK224>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK243>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1110,10 +1110,10 @@ ItemDisplay[CL1 NMAG (SK228>2 AND SK224>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SO
 ItemDisplay[CL1 NMAG (SK228>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[CL1 NMAG (SK224>2 AND SK226>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
-//non-magic druid pelts with +3 shockwave
+//Non-magic druid pelts with +3 shockwave
 ItemDisplay[CL1 NMAG SK243>2 !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
-//non-magic barbarian warcry/grimward primal helms
+//Non-magic barbarian warcry/grimward primal helms
 ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2 AND SK142>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2 AND SK149>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2 AND SK153>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -1126,7 +1126,7 @@ ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2 AND SK138>0) !SOCK=1]: %DGREEN%%NAME% 
 ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2 AND SK146>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL2 NMAG (SK154>2 AND SK150>2) !SOCK=1]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
-//non-magic barbarian ethrow/throw mastery primal helms
+//Non-magic barbarian ethrow/throw mastery primal helms
 ItemDisplay[CL2 NMAG (SK133>2 AND SK135>2 AND SK142>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL2 NMAG (SK133>2 AND SK135>2 AND SK149>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL2 NMAG (SK133>2 AND SK135>2 AND SK153>0) !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -1157,11 +1157,6 @@ ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK267>0) !SOCK=1]: %NAME% %RED%[%S
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK258>0) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK263>0) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
-
-//Inferior Items
-ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
-ItemDisplay[INF !RW !leg]:
-//
 
 //Merc Rares
 ItemDisplay[RARE WP3 !ID ILVL>65]: %NAME%
