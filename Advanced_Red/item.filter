@@ -41,16 +41,13 @@ ItemDisplay[bey]: %GOLD%Baal's Eye
 ItemDisplay[mbr]: %GOLD%Mephisto's Brain
 
 //Utility
-//ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL>40]:
-//ItemDisplay[isc]: %GREEN%!%WHITE%ID
 ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
 ItemDisplay[isc CLVL>40]:
 //
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
 ItemDisplay[wms CLVL>59]:
-//ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
 ItemDisplay[yps]:
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%key
@@ -68,6 +65,8 @@ ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
 //Hide inferior items
 ItemDisplay[INF !RW !leg]:
+//Hide 1os items
+ItemDisplay[NMAG !ELT !leg SOCK=1]:
 
 //RUNES
 //1-16
@@ -856,8 +855,7 @@ ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //4os Flail, Larzuk Gaurantee = HOTO = Heart of the Oak
 ItemDisplay[fla NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-Itemdisplay[fla NMAG SOCK=0 ILVL<41)]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
-Itemdisplay[fla NMAG SOCK=0 ILVL>25]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
+Itemdisplay[fla NMAG SOCK=0 (ILVL>25 AND ILVL<41))]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
 
 //5os Phase Blade, Zerker Axe = Grief
 ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -2045,4 +2043,3 @@ ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[ETH SOCK=0]: ETH %NAME%
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG ILVL>74]:
-//ItemDisplay[]: %NAME% [%CODE%]
