@@ -65,8 +65,6 @@ ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
 //Hide inferior items
 ItemDisplay[INF !RW !leg]:
-//Hide 1os items
-ItemDisplay[NMAG !ELT !leg SOCK=1]:
 
 //RUNES
 //1-16
