@@ -843,13 +843,16 @@ ItemDisplay[6ws ETH SOCK=4]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[6ws ETH SOCK=0]: %DGREEN%ETH %NAME%
 ItemDisplay[6ws ETH SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 
-//5OS Crystal Sword, War Scepter, Flail = CTA = Call to Arms
+//5os Crystal Sword, War Scepter, Flail = CTA = Call to Arms
 ItemDisplay[crs NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[wsp NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[fla NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //5os +3 Energy Shield Staff = CTA
 ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
+//4os War Scepter, Socketing Recipe = Rift
+ItemDisplay[wsp NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[wsp NMAG SOCK=0 (ILVL>25)]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
 
 //4os Flail, Larzuk Gaurantee = HOTO = Heart of the Oak
 ItemDisplay[fla NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
