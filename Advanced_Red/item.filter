@@ -850,9 +850,8 @@ ItemDisplay[fla NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //5os +3 Energy Shield Staff = CTA
 ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
-//4os War Scepter, Socketing Recipe = Rift
+//4os War Scepter = Rift
 ItemDisplay[wsp NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[wsp NMAG SOCK=0 (ILVL>25)]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
 
 //4os Flail, Larzuk Gaurantee = HOTO = Heart of the Oak
 ItemDisplay[fla NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
