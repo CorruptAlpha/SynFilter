@@ -5,7 +5,7 @@
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<4000]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%100%
 ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp4]: %BLUE%!%WHITE%M
