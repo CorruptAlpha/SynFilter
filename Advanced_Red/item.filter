@@ -397,6 +397,7 @@ ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Rings
+ItemDisplay[MAG rin ILVL>84]: %BLUE%%NAME%%ORANGE% [CLVL 70+]
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //
 
